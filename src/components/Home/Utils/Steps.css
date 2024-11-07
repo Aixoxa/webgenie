@@ -1,0 +1,93 @@
+.list_container {
+  display: flex;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 15px 25px;
+}
+
+.list_container ul {
+  text-align: left;
+  list-style-type: none;
+  border: 1px solid #484848;
+  border-radius: 12px;
+  width: 90%;
+  padding-left: 18px;
+  background-color: transparent;
+  order: 1;
+  transition: all 0.3s ease;
+}
+
+svg path {
+  transition: all 0.3s ease;
+}
+
+.list_container ul:hover {
+  background-color: #4d0956;
+  border-color: #d11ce9;
+}
+
+.list_container ul:hover svg path {
+  fill: #d11ce9;
+}
+
+.list_container ul:hover + div.roadmap_circle {
+  background-color: #d11ce9;
+}
+
+.list_container ul:hover + div.roadmap_circle::before {
+  border-color: #d11ce9;
+  background-color: #4d0956;
+}
+
+.list_container ul li {
+  padding: 10px 0;
+}
+
+.list_container ul li:first-child {
+  transform: translateY(7px);
+}
+
+.list_container ul li:nth-child(2) {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.list_container ul li:nth-child(3) {
+  color: #9d9a9d;
+}
+
+.roadmap_circle {
+  height: 14px;
+  width: 14px;
+  border-radius: 100%;
+  background-color: #484848;
+  position: relative;
+  margin-top: 35px;
+  margin-right: 25px;
+  flex-shrink: 0;
+}
+
+.roadmap_circle::before {
+  content: "";
+  height: 22px;
+  width: 22px;
+  border: 1px solid #484848;
+  background-color: #1f1622;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.timeline::after {
+  content: "";
+  height: 200px;
+  width: 1.5px;
+  background-color: #484848;
+  position: absolute;
+  top: 19px;
+  left: 50%;
+}

@@ -17,6 +17,7 @@ ul.toolbar_container {
   border-radius: 20px;
   list-style-type: none;
   text-align: center;
+  padding: 0;
 }
 
 ul.toolbar_container li {
@@ -65,17 +66,15 @@ ul.toolbar_container span {
 .playground_hero_container h3 {
   display: inline-block;
   border: 1px solid #727272;
-  padding:0px 10px 10px;
+  padding: 0px 10px 10px;
   border-radius: 12px;
   font-family: var(--font-final);
   font-size: 25px;
   font-weight: 300;
 }
 
-.playground_hero_container h3 span img{
-    width: 19px;
-    height: 32px;
-    transform: translateY(8px);
+.playground_hero_container h3 img {
+  transform: translateY(8px);
 }
 
 .playground_hero_container p {
@@ -192,7 +191,7 @@ ul.toolbar_container span {
   font-weight: 500;
   border-radius: 20px;
   padding: 10px 25px 20px 25px;
-  margin: 0 10px;
+  margin: 17px 10px;
 }
 
 .upload_image_container .header {

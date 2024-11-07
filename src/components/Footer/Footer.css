@@ -1,0 +1,25 @@
+.foot_container {
+  max-width: 1040px;
+  padding: 150px 15px 20px;
+  margin: 0 auto;
+}
+
+.foot_container ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-top: 1px solid rgb(163, 151, 151);
+  padding: 16px 20px;
+}
+.foot_container ul li:first-child {
+  border-radius: 12px;
+  border: 1px solid #727272;
+  padding: 6px 15px;
+}
+
+.foot_container ul li:last-child {
+  font-family: var(--font-initial);
+  font-weight: 500;
+  align-self: center;
+}

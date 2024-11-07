@@ -103,7 +103,7 @@ function Playground() {
 
       <div className="playground_hero_container">
         <h3>
-          Web <span><img src="./images/logo.png" alt="" /></span>enie
+          <img src="./images/webgenie-logo.png" alt="" />
         </h3>
 
         <h1>Your Design-to-Code Genie</h1>
